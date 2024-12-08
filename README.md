@@ -1,4 +1,4 @@
-# Insomnia Exploit Tool
+# Insomnia Seo Tool
 
 ![Insomnia Logo](insomnia.png)
 
