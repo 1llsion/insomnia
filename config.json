@@ -1,0 +1,25 @@
+{
+    "sitemaps": [
+      {
+        "type": "single_page",
+        "url": "https://www.example.com"
+      },
+      {
+        "type": "tunnel",
+        "url": "https://www.example.com/products",
+        "params": "category/",
+        "brands": ["brand1", "brand2", "brand3"]
+      },
+      {
+        "type": "single_page",
+        "url": "https://www.example.com/about"
+      },
+      {
+        "type": "tunnel",
+        "url": "https://www.example.com/services",
+        "params": "service/",
+        "brands": ["brandA", "brandB", "brandC"]
+      }
+    ]
+  }
+  
