@@ -18,7 +18,7 @@ while True:
     time.sleep(2)
     clear_screen()
     display_menu()
-    
+    requests.packages.urllib3.disable_warnings()
     try:
         choice = input(f"{magenta}INSOMNIA > {white}")
         if choice == "1":
@@ -29,6 +29,14 @@ while True:
             generate_backlinks()
         elif choice == "4":
             keyword_suggestion()
+        elif choice == "5":
+            Nawala()
+        elif choice == "6":
+            AutLogin()
+        elif choice == "7":
+            OJS()
+        elif choice == "8":
+            xmlrpc_Bf()
         else:
             print(f"[{red}Error{white}] Invalid choice. Please try again.")
     
